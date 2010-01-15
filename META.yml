@@ -1,0 +1,35 @@
+---
+abstract: 'work with Mac plists at a low level, really fast'
+author:
+  - 'Darren M. Kulp, C<< <kulp @ cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  LWP: 0
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Mac-PropertyList-XS
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Encode: 0
+  HTML::Entities: 0
+  HTML::Entities::Numbered: 0.04
+  Mac::PropertyList: 1.29
+  Mac::PropertyList::SAX: 0.84
+  Object::MultiType: 0.02
+  XML::Parser: 0
+  constant: 1.06
+  enum: 0
+  perl: 5.8.8
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.00_01

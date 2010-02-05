@@ -3,6 +3,7 @@ abstract: 'work with Mac plists at a low level, really fast'
 author:
   - 'Darren M. Kulp, C<< <kulp @ cpan.org> >>'
 build_requires:
+  Digest::MD5: 2
   ExtUtils::MakeMaker: 6.42
   LWP: 0
   Test::More: 0.42
@@ -32,4 +33,4 @@ requires:
   perl: 5.8.8
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.00_01
+version: 0.01
